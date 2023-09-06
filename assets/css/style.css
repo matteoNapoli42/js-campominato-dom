@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+form{
+    text-align: center;
+    flex-basis: 100%;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    background-color: aquamarine;
+    margin: 5rem auto;
+}
+
+.inner-container{
+    display: flex;
+    justify-content: center;
+}
+
+.gridCell{
+    height: 100%;
+    background-color: darkblue;
+    width: calc(100% / 10);
+    border: 2px solid ;
+    padding: 15px 0px 15px 50px;
+}
